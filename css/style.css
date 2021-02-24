@@ -7,18 +7,17 @@ body {
 }
 
 header {
-  height: 20px;
+  height: 40px;
   background-color: #639a88;
+  position: sticky;
+  top: 0;
 }
 
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
   display: inline;
-}
-
-o {
-  font-family: 'Montserrat', sans-serif;
+  padding: 3rem;
 }
 
 img {
@@ -27,3 +26,29 @@ img {
   padding: 2rem;
 }
 
+.navopt {
+  display: inline;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.navopt:hover {
+  background-color: #e1bb47
+}
+
+a:visited {
+  color: #3a3846
+}
+
+#textwall {
+  font-size: 1.5rem;
+  width: 30rem;
+  padding: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  float: left
+}
+
+#textwall::first-letter {
+  color: #3a5683;
+  font-size: 4rem;
+}
